@@ -59,6 +59,6 @@ REST API endpoints:
 DynamoDB table structure:
 ---------------------------------------------------------------------------------------
 
-Table Name - Routine_Service
-Primary Key - routine_id
-Attributes - stepTimeCount, startval, steptime, creation_time, service_status, modifiedAt
+* Table Name - Routine_Service
+* Primary Key - routine_id
+* Attributes - stepTimeCount, startval, steptime, creation_time, service_status, modifiedAt
