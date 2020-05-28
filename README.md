@@ -49,11 +49,11 @@ Pre requisites:
 REST API endpoints:
 ---------------------------------------------------------------------------------------
 
-1. create -- https://<host>.execute-api.<region>.amazonaws.com/dev/create (POST)
-2. check -- https://<host>.execute-api.<region>.amazonaws.com/dev/check?id=<routine_id> (GET)
-3. clear -- https://<host>.execute-api.<region>.amazonaws.com/dev/clear?id=<routine_id> (POST)
-4. pause -- https://<host>.execute-api.<region>.amazonaws.com/dev/pause?id=<routine_id> (POST)
-5. render -- https://<host>.execute-api.<region>.amazonaws.com/dev/render (GET)
+1. create -- https://(hostname).execute-api.<region>.amazonaws.com/dev/create (POST)
+2. check -- https://(hostname).execute-api.<region>.amazonaws.com/dev/check?id=<routine_id> (GET)
+3. clear -- https://(hostname).execute-api.<region>.amazonaws.com/dev/clear?id=<routine_id> (POST)
+4. pause -- https://(hostname).execute-api.<region>.amazonaws.com/dev/pause?id=<routine_id> (POST)
+5. render -- https://(hostname).execute-api.<region>.amazonaws.com/dev/render (GET)
   
   
 DynamoDB table structure:
